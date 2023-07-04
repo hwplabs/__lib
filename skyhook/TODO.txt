@@ -1,0 +1,25 @@
+// 
+$ - memoizer - /hooks/shared/useMemoizer.js
+
+ux - utils - /utils/\*
+k - constants - /utils/constants.js
+h - helpers - /utils/Helper.js
+
+\_\_ - parseHtml - /utils/helpers/ReactHelper.js
+str - JSON.stringify
+
+i - ReactHelper.setTitle(...)
+$ - n.toLocaleString()
+d - /utils/helpers/DateHelper.js
+dd - /utils/helpers/ReactHelper.js
+cx - classNames - /utils/helpers/ReactHelper.js
+zzz - await new Promise((resolve) => setTimeout(resolve, milliseconds));
+uuid - new Date().getTime()
+
+E - enums - /types/enums/*StatusEnum.js
+I - interface - /types/interfaces/*WalletInterface.ts
+T - types - /types/\*UserType.ts
+
+ctx - page context - /pages/\*
+N - react native navigator
+R - react native router
