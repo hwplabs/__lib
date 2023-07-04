@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <style type="text/css">
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #eee;
+    }
+    ul {
+      padding: 0;
+      margin: 0;
+      list-style-type: none;
+    }
+    a {
+      color: blue;
+      text-decoration: underline;
+      cursor: pointer;
+    }  
+
+    .wrap {
+      padding: 20px;
+      margin: 0 auto;
+      width: 1366px;
+      border: solid thin green;
+    }
+
+    .flex {
+      display: -webkit-flex;
+      display: flex;
+      -webkit-flex-direction: row;
+      -webkit-justify-content: flex-start;
+      -webkit-align-items: flex-start;
+      -webkit-flex-wrap: wrap;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: flex-start;
+      flex-wrap: wrap;
+    }
+    .flex-ii {
+      -webkit-justify-content: space-between;
+      -webkit-align-items: flex-end;
+      justify-content: space-between;
+      align-items: flex-end;
+    }
+    .flex-iii {
+      -webkit-justify-content: center;
+      -webkit-flex-wrap: nowrap;
+      justify-content: center;
+      flex-wrap: nowrap;
+    }
+
+    ul {
+      border: solid thin blue;
+    }
+    ul li {
+      margin: 20px;
+      padding: 10px 20px;
+      width: 400px;
+      line-height: 30px;
+      border: solid thin red;
+    }
+
+    @media only screen and (max-width: 600px) {
+      .wrap {
+        width: 100%;
+      } 
+      .flex {
+        -webkit-flex-direction: column;
+        -webkit-justify-content: flex-start;
+        -webkit-align-items: flex-start;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+      }
+      .flex > li {
+        margin: 20px;
+        width: 88%;
+      }  
+    }
+  </style>
+</head>
+<body>
+
+  <main>
+    <div class="wrap">
+      <ul class="flex">
+        <li>
+          <p>It has been a real honor working with the airtaxi.ng product design team.</p>
+          <a>Learn more</a>
+        </li>
+        <li>
+          <p>The driver took a while to find my location but the drive to my destination was cool.</p>
+          <a>Learn more</a>
+        </li>
+        <li>
+          <p>The tfair was surprinsingly cheap altho there wasn't much traffic that day.</p>
+          <a>Learn more</a>
+        </li>
+        <li>
+          <p>The tfair was surprinsingly cheap altho there wasn't much traffic that day.</p>
+          <a>Learn more</a>
+        </li>        
+      </ul>
+
+      <ul class="flex flex-iii">
+        <li>
+          <p>It has been a real honor working with the airtaxi.ng product design team.</p>
+          <a>Learn more</a>
+        </li>
+        <li>
+          <p>The driver took a while to find my location but the drive to my destination was cool.</p>
+          <a>Learn more</a>
+        </li>
+        <li>
+          <p>The tfair was surprinsingly cheap altho there wasn't much traffic that day.</p>
+          <a>Learn more</a>
+        </li>
+      </ul>
+    </div>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <ul class="flex flex-ii">
+        <li>
+          <p>It has been a real honor working with the airtaxi.ng product design team.</p>
+          <a>Learn more</a>
+        </li>
+        <li>
+          <p>The driver took a while to find my location but the drive to my destination was cool.</p>
+          <a>Learn more</a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+
+</body>
+</html>

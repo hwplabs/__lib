@@ -1,0 +1,73 @@
+# Exploring README.md rich-text  format (h1 p/hash)
+## Basic Formatting (h2 p/double-hash)
+**Bold** w/Double-asterisk <br/>
+*Italic* w/Single-asterisks <br/>
+_Italic_ w/Underscore <br/>
+~~Strikethrough~~ w/Double-tilde
+This is an `inline code input` w/Single grave
+\*Escape md formatting\* p/Backslash
+Heading 1 b/Block-equals-to
+============================
+Heading 2 b/Block-dash
+-----------------------
+Horizontal rule below b/Triple-dash
+---
+\<!-- This is a comment -->
+This is a line break \<br/>
+
+> This is an inline quote p/Greater-than, terminate with full-stop and use double paragraph to insert newline.
+```
+  This is a block code input w/Triple-grave
+```
+$$
+  this is an Equation block
+$$
+## Links
+A Hyperlink Element w/Brackets, followed by its Hyperlink Reference w/Parenthesis [babylyon-ad](https://github.com/2gbeh/babylon-ad.git)
+
+## Lists
+### Number Lists p/Integer + Dot
+1. Apple
+2. Ball
+3. Cat
+### Bullet Lists p/Asterisk
+* Apple
+* Ball
+* Cat
+### Nested Lists p/Hyphen + Indent
+- Menu
+  - Menu item 1
+  - Menu item 2
+  - Menu item 3
+### Radio List p/Bracket + x (checked) or Bracket + space (unchecked)
+- [ ] Female
+- [x] Male
+- [ ] Others
+
+## Tables w/Pipe (td), Hyphen (thead) and Colon (align)
+| LEFT  | CENTER | RIGHT |
+| ----- |:------:| -----:|
+| Apple | 5      | 5     |
+| Ball  | 4      | 4     |
+| Cat   | 3      | 3     |
+
+## Images p/Exclamation + \[alt\]\(src "tooltip"\)
+![Markdown Logo](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "icon48.png")
+
+## Mentions p/At
+@2gbeh <br/>
+@hwplabs/slingshot-js <br/>
+@racai-hmt/web-app
+
+## Tags p/Hash
+#issue-number <br/>
+#pr-number <br/>
+#title
+
+## Emoji w/Colon
+Thumbs up :+1: <br/>
+Rabbit :shipit:
+
+## Jump-to Links
+[Back to Top](#exploring-readmemd-rich-text--format-h1-phash)
+

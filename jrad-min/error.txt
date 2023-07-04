@@ -1,0 +1,47 @@
+@charset "utf-8";
+/* CSS Document */
+.ctx_err {
+  background-color: #fff8c5;
+  color: #24292f;
+  border-bottom: solid 1px #eed888;
+  margin-bottom: 10px;
+  padding: 12px 0;
+}
+.ctx_err_200 {
+  background-color: #d4edda;
+  border-color: #090;
+}
+.ctx_err_400 {
+  background-color: #f8d7da;
+  border-color: #e11;
+}
+.ctx_err input {
+  margin-right: 10px;
+  background-color: transparent;
+  border: none;
+  font-size: 18px;
+  line-height: 1;
+  float: right;
+}
+.ctx_err input:hover {
+  color: #e11;
+  cursor: pointer;
+}
+.ctx_err p {
+  margin: 0;
+  padding: 0 20px;
+  display: inline-block;
+}
+.ctx_err i {
+  font-style: normal;
+}
+.ctx_err var {
+  font-style: normal;
+}
+.ctx_err var a {
+  color: #0969da;
+  text-decoration: none;
+}
+.ctx_err var a:hover {
+  text-decoration: underline;
+}

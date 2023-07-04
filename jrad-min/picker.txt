@@ -1,0 +1,189 @@
+# PALETTE
+LIBERTY
+	Cyan 		#0093DD
+	Lyan		#75C5F0	
+	Dyan		#007BB8
+	Pyan		#D81B60
+	Gyan		#16BC00
+BACKGROUND
+	Darker		#F4F4F4
+	Lighter		#F7F7F7
+	Footer		#373435
+META
+	Blue		#1A0DAB
+	Green		#006621
+LINKS
+	Blue		#0000EE
+	Purple 	#551A8B	
+	Red			#EE0000
+
+BRANDS
+	Xmas Green	#00B32C
+	Xmas Red	#FF0012
+	Valentine	#BC3440	
+	Nigeria		#008753	
+	Coral		#FF7F50	
+	Lavender	#E6E6FA
+	Caramel		#FFD59A
+	Teal
+	Cobalt
+	Tomato
+	Dodgerblue		
+	GlassFish 	#525D76
+	Gun Metal	#2C3539
+	Rose Gold	#B76E79
+	Tidal		#01FFFF
+	Zima Blue	#37C0F7
+	Maroon		#800000
+	Khaki		#F0E68C
+	Khaki-dark	#BDB76B
+	Silver		#C0C0C0
+	Beige		#F5F5DC	
+	Facebook	#3B5998
+	Twitter		#08A0E9
+	Instagram	#D10869		
+	Snapchat	#FFFC00
+	NIIT 		#0E3997		
+	Yahoo		#430297
+	Yahoo Note	#FFF6D7	
+	WordPress	#00749C
+	WordPress Dark	#444140	
+	StackExchange	#F48024
+	SE-Light	#222426
+	SE-Dark		#BCBBBB
+RAINBOW (ROYGBIV)
+	Red					#FF0000
+	Orange			#FF7F00	
+	Yellow			#FFFF00	
+	Green 			#00FF00	
+	Blue				#0000FF
+	Indigo			#4B0082
+	Violet			#9400D3
+	Magenta			#FF00FF
+ANDROID
+	logo		#A4C639
+	bg		#77C159
+	bg-dark		#00574B
+	bg-light	#008577
+	accent		#D81B60
+	('red', 'pink', 'purple', 'indigo', 'light blue', 'cyan', 'green', 'light green', 'amber', 'orange', 'deep orange')
+	('#F44336', '#E91E63', '#9C27B0', '#3F51B5', '#03A9F4', '#00BCD4', '#4CAF50', '#8BC34A', '#FFC107', '#FF9800', '#FF5722')
+BOOTSTRAP
+	pri	#0d6efd
+	sec	#6c757d
+	success	#198754
+	info	#0dcaf0
+	warning	#ffc107
+	danger	#dc3545
+	black	#212529
+	white	#f8f9fa
+ADMIN LTE
+.notice_attention {
+  background-color: #cce5ff;
+  color: #004085;
+}
+.notice_success {
+  background-color: #d4edda;
+  color: #155724;
+}
+.notice_warning {
+  background-color: #fff3cd;
+  color: #856404;
+}
+.notice_danger {
+  background-color: #f8d7da;
+  color: #721c24;
+}
+W3SCHOOLS
+	logo	#04aa6d
+	logo-dark	#059862
+	logo-light	#d9eee1
+	accent	#ffc0c7
+	nav	#282a35
+	nav-dark	#00
+	aside	#e7e9eb
+	aside-dark	#ccc
+	stripe	#f2f2f2
+	info	#d9eee1
+	warning	#ffc
+	danger	#fdd
+	danger-dark	#f44336
+WHATSAPP
+	logo		#25D366
+	header		#128C7E
+	business	#075E54
+	notice		#FFF5C4		
+	bg-i		#DCF8C6
+	bg-ii		#ECE5DD	
+	bg-iii		#34B7F1
+LARAVEL
+	logo	 	#ff2d20
+	bg	 	#1a202c
+	fg	 	#2d3748
+	footer	 	#f5f5fa
+DJANGO
+	logo	 	#092E20
+	accent	 	#6A0E0E
+	header	 	#0C4B33
+	nav	 	#44B78B
+	txt	 	#19865C
+	hover		#F1FFF7
+REACT
+	logo-bg		#222222
+	logo-blue 	#00d8ff
+	site-blue	#60dbfb	
+	bg, header	#20232a
+	fg, nav, txt	#282c34
+	bd, wtmk	#33373e
+	aside		#f7f7f7
+	link		#eafafe
+VUE
+	logo-green 	#00BD82
+	logo-blue	#405467
+	logo-txt	#273E51
+	site-green 	#41b883
+	site-blue	#34495e
+	header		#ffffff
+	aside		#f6f6f6
+	footer, txt	#475050
+	section		#f8f8f8
+	important	#d63200
+FLATIFY
+	main    #ec5e69
+	accent  #5893df 
+	aside   #131c29
+	bg      #192231
+	fg      #24344d
+GITHUB
+	bg	#fff
+	txt	#fff
+	header  #24292f
+	nav	#f6f8fa
+	accent	#fd8c73
+	lnk  	#0969da
+	lnk:btn	#ddf4ff
+	fab     #2da44e
+		DARK
+	bg	#0d1117
+	txt	#f0f6fc
+	header	#161b22
+	nav	#21262d
+	accent	#f78166
+	lnk  	#58a6ff
+	lnk:btn	#1b2c43
+	fab	#238636
+CPANEL
+	orange ff6c2c
+	header 293a4a
+	search 344453
+	nav eaeaea
+	aside f5f5f5
+	thead f2f2f2
+	tbody f9f9f9
+	button 3989cf
+	btn:hover 2a6496
+	notice d7edf9
+	notice-left 179bd7
+	chart-ink 5cb85c
+	chart-tube c8c8c8
+	

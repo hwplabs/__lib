@@ -1,0 +1,52 @@
+@charset "utf-8";
+/* CSS Document */
+.notice {
+  background-color: #fff8c5;
+  color: #24292f;
+  border-bottom: solid 1px #eed888;
+  margin-bottom: 10px;
+  padding: 12px;
+}
+.notice_200 {
+  background-color: #d4edda;
+  border-color: #090;
+}
+.notice_400 {
+  background-color: #f8d7da;
+  border-color: #e11;
+}
+.notice table tr {
+  vertical-align: top;
+}
+.notice table tr th {
+  text-align: left;
+  font-weight: normal;
+}
+.notice table tr th i {
+  font-style: normal;
+}
+.notice table tr th p {
+  margin: 0 0 0 5px;
+  padding: 0;
+  font-size: 14px;
+  line-height: 20px;
+  display: inline;
+}
+.notice table tr th a {
+  color: #0969da;
+  text-decoration: none;
+}
+.notice table tr th a:hover {
+  text-decoration: underline;
+}
+.notice table tr td {
+  text-align: right;
+}
+.notice table tr td a {
+  font-size: 18px;
+  line-height: 0.2;
+}
+.notice table tr td a:hover {
+  color: #e11;
+  cursor: pointer;
+}
